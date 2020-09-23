@@ -37,12 +37,19 @@ print(sommes)
 
 
 def factorial(number: int) -> int:
-    return 0
+if number != 0:
+    for i in range(number):
+        number *= (number-1)
+        print(number)
+
 
 
 def use_continue() -> None:
-    pass
-
+    for i in range (1,11):
+        if i==5:
+            continue
+        else:
+            print(i)
 
 def main() -> None:
     print(f"La valeur absolue du nombre est {convert_to_absolute()}")
