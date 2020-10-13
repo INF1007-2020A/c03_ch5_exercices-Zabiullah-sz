@@ -1,0 +1,22 @@
+test_factorial (__main__.TestExercice) ... FAIL
+test_prefixes (__main__.TestExercice) ... ok
+test_summation (__main__.TestExercice) ... ok
+
+======================================================================
+FAIL: test_factorial (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 50, in test_factorial
+    'Erreur dans le remplacement de caractère'
+AssertionError: Lists differ: [0, 870, 183118507586582874316025286156085[1189 chars]0010] != [1, 6, 40320, 3628800]
+
+First differing element 0:
+0
+1
+
+Diff is 1273 characters long. Set self.maxDiff to None to see it. : Erreur dans le remplacement de caractère
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.002s
+
+FAILED (failures=1)
